@@ -40,4 +40,4 @@ There are two examples in the examples folders. AInScan and AInScan_IEPE, to exe
 ./AInScan_IEPE
 ```
 
-#### Note: The DAQ module's firmware is stored in a volatile memory, therefor when the WebDAQ system is shut down the firmware image will be lost. The ulGetDeviceInvetory function loads the firmware image to the module when it is invoked for the first time after system boot. Loading the firmware image takes about 5 to 8 seconds.
+#### Note: The DAQ module's firmware is stored in a volatile memory, therefor when the WebDAQ system is shut down the firmware image will be lost. The ulGetDeviceInvetory function loads the firmware image to the module when it is invoked for the first time after system boot up. Loading the firmware image takes about 5 to 8 seconds.
