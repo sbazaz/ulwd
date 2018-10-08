@@ -34,7 +34,7 @@ The C examples are located in the examples folder. Run the following commands to
   $ make
 ```
 
-Two examples (AInScan and AInScan_IEPE) can be found in the examples folder. To execute the examples, run the following commands:
+To execute the examples, run the following commands:
 
 ``` sh
 ./AInScan
