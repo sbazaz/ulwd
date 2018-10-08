@@ -25,8 +25,6 @@
 
 4. Reboot the WebDAQ system
 
-#### Note: The DAQ module's firmware is stored in a volatile memory, therefor when the WebDAQ system is shut down the firmware image will be lost. The ulGetDeviceInvetory function load's the firmware image to the module when it is invoked for the first time after system boot. Loading the firmware image takes about 5 to 8 seconds.
-
 ### Examples
 The C examples are located in the examples folder, Run the following commands to build the examples.
 
@@ -41,3 +39,5 @@ There are two examples in the examples folders. AInScan and AInScan_IEPE, to exe
 ./AInScan
 ./AInScan_IEPE
 ```
+
+#### Note: The DAQ module's firmware is stored in a volatile memory, therefor when the WebDAQ system is shut down the firmware image will be lost. The ulGetDeviceInvetory function load's the firmware image to the module when it is invoked for the first time after system boot. Loading the firmware image takes about 5 to 8 seconds.
