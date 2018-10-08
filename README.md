@@ -8,7 +8,7 @@
 1. Download the latest version of **ulwd**:
 
 ``` sh
-  $ https://github.com/sbazaz/ulwd/releases/download/v0.0.1-beta.1/libulwd.0.0.1-b1.tar.bz2
+  $ wget https://github.com/sbazaz/ulwd/releases/download/v0.0.1-beta.1/libulwd.0.0.1-b1.tar.bz2
 ```     
 2. Extract the tar file:
  
