@@ -8,6 +8,7 @@
 1. Download the latest version of **ulwd**:
 
 ``` sh
+  $ cd ~
   $ wget https://github.com/sbazaz/ulwd/releases/download/v0.0.1-beta.1/libulwd.0.0.1-b1.tar.bz2
 ```     
 2. Extract the tar file:
@@ -29,7 +30,7 @@
 The C examples are located in the examples folder, Run the following commands to build the examples.
 
 ``` sh
-  $ cd examples
+  $ cd ~/libulwd/examples
   $ make
 ```
 
