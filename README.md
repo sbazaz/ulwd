@@ -30,7 +30,7 @@
 The C examples are located in the examples folder. Run the following commands to build the examples:
 
 ``` sh
-  $ cd ~/libulwd/examples
+  $ cd ~/libulwd/examples/c
   $ make
 ```
 
