@@ -14,7 +14,7 @@
 2. Extract the tar file:
  
 ``` sh
-  $ tar -xvjf libulwd.0.0.1-b1.tar.bz2
+  $ tar -xvjf libulwd.0.0.1-b2.tar.bz2
 ```
 
 3. Run the following commands to install the library:
