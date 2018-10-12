@@ -33,18 +33,28 @@
 5. Reboot the WebDAQ system
 
 ### Examples
+
+#### Python
+The Python examples are located in the examples folder. To execute the examples, run the following commands:
+
+``` sh
+  ./AInScan.py
+  ./AInScan_IEPE.py
+```
+
+#### C
 The C examples are located in the examples folder. Run the following commands to build the examples:
 
 ``` sh
-  $ cd ~/libulwd/examples/c
-  $ make
+  cd ~/libulwd/examples
+  make
 ```
 
 To execute the examples, run the following commands:
 
 ``` sh
-./AInScan
-./AInScan_IEPE
+  ./AInScan
+  ./AInScan_IEPE
 ```
 
 #### Note: The DAQ module's firmware is stored in a volatile memory, therefore the firmware image will be lost when the WebDAQ system is shut down. The ulGetDeviceInventory function loads the firmware image to the module when it is invoked for the first time after system boot up. Loading the firmware image takes about 5 to 8 seconds.
