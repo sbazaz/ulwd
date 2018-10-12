@@ -38,6 +38,7 @@
 The Python examples are located in the examples folder. To execute the examples, run the following commands:
 
 ``` sh
+  cd ~/libulwd/examples/python
   ./AInScan.py
   ./AInScan_IEPE.py
 ```
@@ -46,7 +47,7 @@ The Python examples are located in the examples folder. To execute the examples,
 The C examples are located in the examples folder. Run the following commands to build the examples:
 
 ``` sh
-  cd ~/libulwd/examples
+  cd ~/libulwd/examples/c
   make
 ```
 
