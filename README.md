@@ -15,12 +15,12 @@
 
 ``` sh
   $ cd ~
-  $ wget https://github.com/sbazaz/ulwd/releases/download/v0.0.1-beta.2/libulwd.0.0.1-b2.tar.bz2
+  $ wget https://github.com/sbazaz/ulwd/releases/download/v0.0.1-beta.3/libulwd.0.0.1-b3.tar.bz2
 ```     
 3. Extract the tar file:
  
 ``` sh
-  $ tar -xvjf libulwd.0.0.1-b2.tar.bz2
+  $ tar -xvjf libulwd.0.0.1-b3.tar.bz2
 ```
 
 4. Run the following commands to install the library:
